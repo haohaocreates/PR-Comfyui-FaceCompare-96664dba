@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-facecompare"
+description = "Nodes:FaceCompare"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["numpy", "face_recognition"]
+
+[project.urls]
+Repository = "https://github.com/czcz1024/Comfyui-FaceCompare"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui-FaceCompare"
+Icon = ""
